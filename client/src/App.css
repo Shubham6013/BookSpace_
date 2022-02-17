@@ -1,0 +1,234 @@
+
+.HomePage{
+  text-align: center;
+}
+.App {
+  text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #4B3869;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color:#4B3869;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #4B3869;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3; 
+     color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  .CreateBook {
+    background-color: #4B3869;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .ShowBookDetails {
+    /* background-image: url(https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60); */
+    background-color: #4B3869;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .UpdateBookInfo {
+    background-color:  #4B3869;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .ShowBookList {
+    background-color: #4B3869;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100px;
+    color: white;
+  }
+  
+  
+  /* BookList Styles */
+  .list {
+    display: grid;
+    margin: 20px 0 50px 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 2em;
+  }
+  
+  .card-container {
+    width: 250px;
+    border: 1px solid rgba(0,0,.125);
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .desc {
+    height: 130px;
+    padding: 10px;
+    color: #FFC069;
+  }
+  
+  .desc h2 {
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFC069;
+  }
+  
+  .desc h3, p {
+    font-weight: 300;
+    
+  }
+  
+  .desc h3 {
+    color: #FFFEB7;
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+  }
+
+
+  
+.wrapper{
+  display: grid;
+  margin: 50px;
+  grid-template-columns: repeat(auto-fit,minmax(2rem,18rem));
+  gap: 3rem;
+  justify-content: center;
+} 
+
+
+.card{
+  overflow: hidden;
+  box-shadow: 0 2px 20px ;
+  display:flex;
+  flex-direction: column; 
+   justify-content: space-between;
+  /* cursor: pointer; */
+  transition: transform 200ms ease-in;
+}
+
+.class-img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.class_title{
+  padding: 0.5rem;
+  color: #2c3e50;
+}
+
+.author_name{
+  padding: 0 1rem;
+  color: #2c3e50;
+}
+
+
+.class_btn{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  border: 2px solid chocolate;
+  border-radius: 10%;
+  color: rgb(221, 41, 35);
+} 
+
+ .counter-btn{
+  padding: 1rem;
+  font-family: inherit;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border: 2px solid chocolate;
+  cursor: not-allowed;
+  border-radius: 10%;
+  color: rgb(221, 41, 35);
+
+
+}  
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
